@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "inter";
+    background: rgba(41, 41, 41, 1);
+}
+
+.container {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+span {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+ul li {
+    list-style: none;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+h5 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pad {
+    padding-top: 12px;
+}
+
+.pl {
+    padding-left: 4px;
+}
+
+.t-gap {
+    gap: 42px;
+}
+
+.ti-gap {
+    gap: 16px;
+}
+
+.tb-gap {
+    gap: 6px;
+}
+
+h6 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.main {
+    display: flex;
+    align-items: start;
+    gap: 0px;
+}
+
+.box-shadow {
+    background: rgba(61, 61, 61, 1);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.14);
+}
+
+.radius {
+    border-radius: 16px;
+}
+
+.left {
+    width: 33%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.first-col {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+}
+
+.photo {
+    width: 50%;
+    text-align: right;
+}
+
+.photo img {
+    width: 155px;
+    height: 155px;
+}
+.borderline {
+    border-left: 2px solid rgba(255, 196, 83, 1);
+    padding: 4px 0px 4px 12px;
+}
+
+.borderline-color {
+    border-left: 2px solid rgba(41, 228, 137, 1);
+    padding: 4px 0px 4px 12px;
+}
+
+.sizing img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    border: 1px 0px 0px 0px;
+}
