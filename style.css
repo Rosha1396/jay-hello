@@ -133,3 +133,107 @@ h6 {
     border-radius: 50px;
     border: 1px 0px 0px 0px;
 }
+.right {
+    width: 66%;
+    position: relative;
+    padding: 16px 0px 0px 0px;
+}
+
+.top {
+    width: 100%;
+    height: 400px;
+    padding: 16px;
+}
+
+.list-head {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.list-head a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 26px 0px 0px;
+    color: #000;
+}
+
+.poster img {
+    width: 100%;
+    height: 320px;
+}
+
+.text-center {
+    width: 80%;
+    height: 84px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    bottom: 45%;
+    left: 10%;
+}
+
+.left-bottom {
+    width: 55%;
+    border: 1pz solid green;
+}
+
+.text-center p {
+    text-align: justify;
+    margin: 12px;
+}
+
+.text-bottom p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-bottom span {
+    text-align: right;
+    display: block;
+}
+
+.right-bottom {
+    width: 45%;
+    height: 240px;
+    margin-left: 10px;
+}
+
+.final-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.final-list li {
+    width: 30%;
+    height: 76px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 16px;
+    background: rgba(41, 41, 41, 1);
+}
+
+.final-list img {
+    width: 32px;
+    height: 32px;
+
+}
+
+.final-list h5 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 2px;
+}
