@@ -78,10 +78,44 @@ h6 {
 
 .main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    height: 688px;
+    grid-template-columns:1fr 1,25fr 1,51fr;
     gap: 16px;
+}
+.box-a{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box-b{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3 ;
+}
+.box-c{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end:4;
+}
+.box-d{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+.box-f{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 3;
+    grid-row-end:4;
+}
+.box-e{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end:4;
 }
 .box-shadow {
     background: rgba(61, 61, 61, 1);
@@ -168,7 +202,6 @@ h6 {
 }
 
 .text-center {
-    width: 80%;
     height: 84px;
     font-family: Inter;
     font-size: 20px;
@@ -178,46 +211,32 @@ h6 {
     color: rgba(255, 255, 255, 1);
     background: rgba(0, 0, 0, 0.39);
     position: absolute;
-    bottom: 45%;
-    left: 10%;
+    bottom: 50%;
+    left: 37%;
 }
-
-.left-bottom {
-    width: 55%;
-    border: 1pz solid green;
-}
-
 .text-center p {
     text-align: justify;
-    margin: 12px;
 }
 
 .text-bottom p {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 25px;
     text-align: left;
     color: rgba(255, 255, 255, 0.8);
+    margin-top: 12px;
 }
 
 .text-bottom span {
     text-align: right;
     display: block;
 }
-
-.right-bottom {
-    width: 45%;
-    height: 240px;
-    margin-left: 10px;
-}
-
 .final-list ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 10px;
 }
 
 .final-list li {
@@ -232,7 +251,6 @@ h6 {
 .final-list img {
     width: 32px;
     height: 32px;
-
 }
 
 .final-list h5 {
