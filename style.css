@@ -75,12 +75,14 @@ h6 {
     text-align: left;
     color: rgba(255, 255, 255, 1);
 }
-.main {
-    display: flex;
-    align-items: start;
-    gap: 0px;
-}
 
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 688px;
+    gap: 16px;
+}
 .box-shadow {
     background: rgba(61, 61, 61, 1);
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
@@ -117,6 +119,7 @@ h6 {
     width: 155px;
     height: 155px;
 }
+
 .borderline {
     border-left: 2px solid rgba(255, 196, 83, 1);
     padding: 4px 0px 4px 12px;
@@ -133,6 +136,7 @@ h6 {
     border-radius: 50px;
     border: 1px 0px 0px 0px;
 }
+
 .right {
     width: 66%;
     position: relative;
